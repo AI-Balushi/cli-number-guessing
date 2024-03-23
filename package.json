@@ -1,0 +1,24 @@
+{
+  "name": "@abdul_waheed/cli-number-guessing",
+  "version": "1.0.0",
+  "description": "A CLI number guessing game implemented in TypeScript.",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdul Waheed",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.30"
+  },
+  "dependencies": {
+    "@abdul_waheed/cli-number-guessing": "^1.0.0",
+    "inquirer": "^9.2.16"
+  }
+}
